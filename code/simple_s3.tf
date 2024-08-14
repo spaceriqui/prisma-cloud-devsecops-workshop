@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "dev_s3" {
 
   tags = {
     Environment          = "Dev"
-    git_commit           = "f6e3875d3c2dcd2ee1f92ed4f6db7d2bfee75303"
+    git_commit           = "d4c35e0270bfd542051278ca30b4b3872c1ae0b2"
     git_file             = "code/simple_s3.tf"
     git_last_modified_at = "2024-01-26 23:01:56"
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
